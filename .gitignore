@@ -1,0 +1,21 @@
+# Ignore frame outputs
+tdr_backend/data/frames/
+tdr_backend/data/*.jpg
+tdr_backend/data/*.png
+tdr_backend/data/*.mp4
+
+# Ignore labels if auto-generated
+tdr_backend/labels/
+
+# Ignore Python virtual environment
+tdr_backend/venv/
+venv/
+
+# YOLO model weights
+yolov8n.pt
+*.pt
+
+# Bytecode + logs
+__pycache__/
+*.pyc
+*.log
